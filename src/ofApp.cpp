@@ -35,13 +35,13 @@ void ofApp::setup(){
     onePassFbo.allocate(ofGetWidth(), ofGetHeight());
     twoPassFbo.allocate(ofGetWidth(), ofGetHeight());
        
-    gui.setup();
-    gui.setPosition(10, 10);
-    gui.add(camx.set("camx", 0, -200, 200));
-    gui.add(camy.set("camy", 0, -200, 200));
-    gui.add(camz.set("camz", 200, -200, 500));
-    gui.add(anim1.z.set("z",-100,-3000,10000));
-    gui.add(strength.set("strength", 1.5, 0, 10));
+//     gui.setup();
+//     gui.setPosition(10, 10);
+//     gui.add(camx.set("camx", 0, -200, 200));
+//     gui.add(camy.set("camy", 0, -200, 200));
+//     gui.add(camz.set("camz", 200, -200, 500));
+//     gui.add(anim1.z.set("z",-100,-3000,10000));
+//     gui.add(strength.set("strength", 1.5, 0, 10));
     
     //カメラ設定
     cam.lookAt(ofVec3f(0,0,0));
